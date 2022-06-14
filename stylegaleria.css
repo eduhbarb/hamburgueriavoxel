@@ -1,0 +1,18 @@
+.gallery {
+    background: rgba(0, 0, 0, 0.274) url(images/tetxtura-papel.jpg);
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+.gallery .gallery-item {
+    overflow: hidden;
+    border: 3px solid #454035; 
+  }
+  .gallery .gallery-item img {
+    transition: all ease-in-out 0.4s;
+  }
+  .gallery .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  

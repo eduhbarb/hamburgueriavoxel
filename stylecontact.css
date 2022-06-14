@@ -1,0 +1,187 @@
+.titulo-padrao-paginas{
+    font-family: 'Iron&Brine', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+
+.titulo-padrao-paginas h1{
+
+    font-size: 7.5rem;
+    COLOR: #7a1332;
+    text-shadow: 7px 5px 0px #ffae00;
+}
+
+
+.titulo-padrao-paginas p{
+    font-size: 2rem;
+    text-shadow: 3px 2px 0px #ffae00;
+    COLOR: #7a1332;
+}
+
+
+
+
+
+
+
+
+
+ /*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+
+.contato {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background: rgba(0, 0, 0, 0.274) url(images/tetxtura-papel.jpg);
+
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact .info {
+    width: 100%;
+  }
+  .contact .info i {
+    
+    font-size: 20px;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #7a1332;
+    filter: drop-shadow(0.2rem 0.2rem 0rem #ffb007fa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+
+.fa-solid{
+    color: #ffb007fa;
+}
+
+  .contact .info h4 {
+    color: #7a1332;
+    filter: drop-shadow(0.1rem 0.1rem 0rem #ffb007fa);
+    padding: 0 0 0 60px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: 'BROTHERS', sans-serif;
+  }
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #0c0c0c;
+  }
+  .contact .info .open-hours, .contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+  }
+  .contact .php-email-form {
+    width: 100%;
+  }
+  .contact .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+  .contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  .contact .php-email-form .loading {
+    display: none;
+    text-align: center;
+    padding: 15px;
+  }
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #cda45e;
+    border-top-color: #1a1814;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: #03030317;
+    border-color: #625b4b;
+    color: rgb(0, 0, 0);
+  }
+  .contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+    color: #0a0a0a;
+  }
+  .contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+    color: #000000;
+  }
+  .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+    border-color: #ffb93f;
+  }
+  .contact .php-email-form input {
+    height: 44px;
+  }
+  .contact .php-email-form textarea {
+    padding: 10px 12px;
+  }
+  .contact .php-email-form button[type=submit] {
+    background: #7a1332;
+    filter: drop-shadow(0.25rem 0.25rem 0rem #ffb007fa);
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  .contact .php-email-form button[type=submit]:hover {
+    background: #ffb007fa ;
+    filter: drop-shadow(0.25rem 0.25rem 0rem #7a1332);
+  }
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

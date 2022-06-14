@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+@font-face {
+    font-family: "BROTHERS";
+    src: url(BROTHERS.otf) format("OpenType");
+  }
+
+  @font-face {
+    font-family: "Iron&Brine";
+    src: url(Iron&Brine.ttf) format("OpenType");
+  }
+    
+
+
+
+* {
+  scroll-behavior: smooth;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    
+  }
+  
+
+/* ----------- SESSÃO HEADER ----------- */
+/* ----------- SESSÃO HEADER ----------- */
+/* ----------- SESSÃO HEADER ----------- */
+/* ----------- SESSÃO HEADER ----------- */
+
+.header{
+  background: #7A1332;
+    
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16rem;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.199);
+    border-bottom: 0.2rem solid #ffffff;
+    
+    
+    
+}
+
+.sobrenos-botao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.icon-botao{
+  width: 35px;
+}
+
+.icon-especial{
+  padding-bottom: 0.22rem;
+}
+
+.header-logo-lightspeed {
+    width: 70px;
+    cursor: pointer;
+}
+
+.header-menu-1 {
+    display: flex;
+    gap: 40px;
+}
+
+.header-menu-item-1 {
+  font-family: 'Iron&Brine', sans-serif;
+  color:#f3f3f3;
+    font-weight: 400;
+    font-size: 1.5rem;
+
+    box-shadow: inset 0 0 0 0 #ffffff;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    
+}
+
+.header-menu-item-1:hover {
+  text-decoration: none;
+  color: #7a1332;
+  box-shadow: inset 0 -150px 0 0 #ffffff;
+
+  
+}
+
+/* ----------- SESSÃO HEADER ----------- */
+/* ----------- SESSÃO HEADER ----------- */
+/* ----------- SESSÃO HEADER ----------- */
+/* ----------- SESSÃO HEADER ----------- */
+
+/* ----------- SESSÃO BANNERS TOPO ----------- */
+/* ----------- SESSÃO BANNERS TOPO ----------- */
+/* ----------- SESSÃO BANNERS TOPO ----------- */
+/* ----------- SESSÃO BANNERS TOPO ----------- */
+.banners {
+
+  background: rgba(0, 0, 0, 0.274) url(images/tetxtura-papel.jpg);
+  
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1rem;
+  }
+  
+  
+  #mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 70vh;
+  }
+  
+  #mainSlider .carousel-caption {
+    top: 30%;
+  }
+  
+  #mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  
+  #mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #FFF;
+  }
+  
+  
+  
+  .main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #3EC1D5;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #65DAF9;
+  }
+  /* ----------- SESSÃO BANNERS TOPO ----------- */
+  /* ----------- SESSÃO BANNERS TOPO ----------- */
+  /* ----------- SESSÃO BANNERS TOPO ----------- */
+  /* ----------- SESSÃO BANNERS TOPO ----------- */
+
+
+/* ----------- SESSÃO BANNER INTERATIVO ----------- */
+/* ----------- SESSÃO BANNER INTERATIVO ----------- */
+/* ----------- SESSÃO BANNER INTERATIVO ----------- */
+/* ----------- SESSÃO BANNER INTERATIVO ----------- */
+
+
+  .split-banner {
+    height:100vh;
+    display: flex;
+    background-color: black;
+  }
+  
+  .split-banner section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    transition: all .5s;
+  }
+  
+  .split-banner section:hover {
+    flex:2.3;
+
+  }
+
+
+  .split-banner-item2-logo {
+    transform: scale(0);
+    transition: all .5s;
+}
+
+  .split-banner section:hover .split-banner-item2-logo{
+
+    transform: scale(0.5);
+    transition: all 0.7s;
+  }
+  
+  .split-banner section h1 {
+    color:white;
+    padding: 12px 32px;
+    border-color: white;
+  }
+  
+  .split-banner-item1{
+      
+    background:url('images/banner1.png');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+
+  }
+  
+  .split-banner-item2{
+    background:url('images/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+
+
+  }
+  
+  
+  .split-banner-item3{
+    background:url('images/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+
+    border-color: white;
+  }
+
+  .buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:100%;
+    height:100%;
+    border-width:1px;
+    color:rgba(255, 255, 255, 0);
+    border-color:rgba(24, 171, 41, 0);
+    font-weight:bold;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    text-shadow: 1px 1px 0px rgba(47, 102, 39, 0);
+    background-color:transparent;
+    }
+
+
+/* ----------- SESSÃO BANNER INTERATIVO ----------- */
+/* ----------- SESSÃO BANNER INTERATIVO ----------- */
+/* ----------- SESSÃO BANNER INTERATIVO ----------- */
+/* ----------- SESSÃO BANNER INTERATIVO ----------- */
+
+
+/* ----------- SESSÃO CARDAPIO ----------- */
+/* ----------- SESSÃO CARDAPIO ----------- */
+/* ----------- SESSÃO CARDAPIO ----------- */
+/* ----------- SESSÃO CARDAPIO ----------- */
+
+
+
+/* ----------- SESSÃO CARDAPIO ----------- */
+/* ----------- SESSÃO CARDAPIO ----------- */
+/* ----------- SESSÃO CARDAPIO ----------- */
+/* ----------- SESSÃO CARDAPIO ----------- */
+
+
+
+
+
+
+
+
+
+
+/* ----------- SESSÃO burgerS ----------- */
+/* ----------- SESSÃO burgerS ----------- */
+/* ----------- SESSÃO burgerS ----------- */
+/* ----------- SESSÃO burgerS ----------- */
+
+.burgerS-TESTE{
+
+  
+  background: rgba(0, 0, 0, 0.274) url(images/tetxtura-papel.jpg);
+
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  padding-top: 3rem;
+
+  padding-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+.burgerS-TESTE .header-cardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Iron&Brine', sans-serif;
+    text-align: center;
+    padding-top: .1rem;
+      padding-bottom: 3rem;
+}
+
+.header-cardapio-voxelimage img{
+  width: 22rem;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.411));
+
+}
+
+
+.header-cardapio-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+.header-cardapio-titulo img{
+    
+    padding-top: .5rem;
+      height: 150px;
+}
+
+.header-cardapio h1{
+
+    font-size: 8.5rem;
+    COLOR: #7a1332;
+    text-shadow: 7px 5px 0px #ffae00;
+}
+
+
+.header-cardapio p{
+    font-size: 2rem;
+    text-shadow: 3px 2px 0px #ffae00;
+    COLOR: #7a1332;
+}
+
+
+.burgerS-TESTE .header-cardapio-hamburgueres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Iron&Brine', sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.header-cardapio-hamburgueres h1{
+    padding-top: 9rem;
+    font-size: 4rem;
+    COLOR: #7a1332;
+    text-shadow: 7px 5px 0px #ffae00;
+}
+
+
+
+
+
+.header-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Iron&Brine', sans-serif;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.header-banner-titulo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+
+.header-banner-titulo img{
+  
+  padding-top: .5rem;
+    height: 150px;
+}
+
+.header-banner h1{
+  font-size: 8.5rem;
+  COLOR: #35880f;
+  text-shadow: 7px 5px 0px #ffae00;
+}
+
+
+.header-banner p{
+  font-size: 2rem;
+  text-shadow: 3px 2px 0px #ffae00;
+  COLOR: #7a1332;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- SESSÃO RODAPE ----------- */
+/* ----------- SESSÃO RODAPE ----------- */
+/* ----------- SESSÃO RODAPE ----------- */
+/* ----------- SESSÃO RODAPE ----------- */
+
+.rodape{
+    background-color: #7a1332;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+  color: white;
+  border-top: 0.2rem solid #ffffff;
+  
+  
+}
+.rodape-logo-lightspeed {
+  width: 100px;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.233));
+}
+
+.rodape p {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.2rem;
+}
+
+.rodape-itens-sociais{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+background: -webkit-linear-gradient(rgb(255, 196, 0), rgb(245, 110, 0));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.247));
+  font-size: 2.5rem;
+  padding-bottom: .5rem;
+}
+
+/* ----------- SESSÃO RODAPE ----------- */
+/* ----------- SESSÃO RODAPE ----------- */
+/* ----------- SESSÃO RODAPE ----------- */
+/* ----------- SESSÃO RODAPE ----------- */
+
+
+
+
+@media only screen and (max-width: 1000px) {
+  body {
+    display:none
+  }
+}
